@@ -35,3 +35,6 @@
 - **사용 방법**: 이미지 데이터를 통해 각 클래스(예: 유충_부저병, 성충_정상 등)를 분류합니다.
 - [bee_classification_efficientnet.pth](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
 - [bee_classification_resnet.pth](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
+
+#### 3. **Model 3** *describing the output*
+- **출력**: LLAMA 이용하여 질병 증상과 원인, 치료 방법 설명
