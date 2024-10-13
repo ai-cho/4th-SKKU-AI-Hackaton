@@ -25,16 +25,14 @@
 #### 1. **Model 1** *using time series data*
 - **입력 데이터**: 시계열 데이터 (내부 온도, 내부 습도, 내부 이산화탄소 농도)
 - **목표**: 환경 데이터를 기반으로 특정 상태를 예측하는 시계열 분석 모델입니다.
-- **사용 방법**: JSON 파일에서 시간에 따른 온도 및 습도, 이산화탄소 데이터를 추출하여 EfficientNet 모델을 학습시킵니다.
 - **추가**: 시계열 특징 반영을 위한 LSTM Model code 추가
-- [network.hdf5](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
+- [network.hdf5 - EfficientNet](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
 
 #### 2. **Model 2** *using image data*
 - **입력 데이터**: 이미지 데이터
 - **목표**: 주어진 이미지가 특정 범주에 속하는지 예측하는 이미지 분류 모델입니다.
-- **사용 방법**: 이미지 데이터를 통해 각 클래스(예: 유충_부저병, 성충_정상 등)를 분류합니다.
-- [bee_classification_efficientnet.pth](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
-- [bee_classification_resnet.pth](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
+- [bee_classification_efficientnet.pth - EfficientNet](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
+- [bee_classification_resnet.pth - ResNet](https://github.com/ai-cho/4th-SKKU-AI-Hackaton/tree/master/training/model)
 
 #### 3. **Model 3** *describing the output*
 - **출력**: LLAMA 이용하여 질병 증상과 원인, 치료 방법 설명
